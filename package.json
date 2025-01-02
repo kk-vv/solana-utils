@@ -1,0 +1,21 @@
+{
+  "name": "sol",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "@types/crypto-js": "^4.2.2",
+    "@types/node": "^22.10.2",
+    "bip39": "^3.1.0",
+    "micro-key-producer": "^0.7.2",
+    "ts-node": "^10.9.2",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  }
+}
