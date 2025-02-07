@@ -3,6 +3,8 @@
 - Generate mnemonic with bip39
 - Derive account by path under bip44
 - Sign message
+- Transfer SOL
+- Transfer SPL token
 - Extension by yourself
 
 ### RUN
@@ -27,4 +29,24 @@ console.log('privateKey1:', privateKey1)
 console.log('account2:', account2)
 console.log('privateKey2:', privateKey2)
 console.log('sign [Hello message]:', signMessage)
+```
+
+### Transfer
+
+#### Fulfill mnemonic in `config.ts`
+
+```
+export const mnemonic = 'your mnemonic here'
+```
+
+#### Send SOL
+
+```
+npm run dispatch-sol
+```
+
+#### Send SPL Token
+
+```
+npm run dispatch-spl
 ```
